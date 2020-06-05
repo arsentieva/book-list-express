@@ -7,5 +7,8 @@ app.use(routes);
 
 //TODO
 
-const port = 8080;
-app.listen(port, () => console.log(`Listing on port ${port}...`));
+//this will be moved to the ./bin/www file
+// const port = 8080;
+// app.listen(port, () => console.log(`Listing on port ${port}...`));
+
+module.exports = app;
